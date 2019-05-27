@@ -19,7 +19,7 @@ img {
 
 @media (max-width: 960px) {
   .container {
-    max-width: 750px;
+    max-width: 768px;
     width: 95%;
   }
 }
@@ -30,12 +30,12 @@ img {
   border: none;
   padding: 18px 30px;
   outline: 0 !important;
+  cursor: pointer;
 }
 
 button:hover {
   color: #fff;
   background-color: yellowgreen;
-  cursor: pointer;
 }
 
 .navbar {
@@ -87,7 +87,18 @@ button:hover {
   margin-top: 10px;
 }
 
-@media (max-width: 567px) {
+@media (max-width: 768px) {
+  __button {
+    font-size: 12px;
+    font-weight: 700;
+    padding: 15px 26px;
+  }
+  __logo {
+    width: 90px;
+  }
+}
+
+@media (max-width: 578px) {
   .navbar__contacts {
     display: none;
   }
